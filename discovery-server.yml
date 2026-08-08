@@ -3,5 +3,9 @@ server:
 
 eureka:
   client:
+    # Tell Eureka NOT to register with itself
     register-with-eureka: false
     fetch-registry: false
+  server:
+    # Optional: turns off preservation mode in local development so instances drop off immediately when killed
+    enable-self-preservation: false
