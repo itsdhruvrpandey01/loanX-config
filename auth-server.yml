@@ -1,4 +1,0 @@
-server:
-  port: 8081
-
-# Add database, logging, or custom configs here
